@@ -16,6 +16,7 @@
 		D370D0261A32C5C500F35129 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D370D0251A32C5C500F35129 /* Images.xcassets */; };
 		D370D0291A32C5C500F35129 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D370D0271A32C5C500F35129 /* LaunchScreen.xib */; };
 		D370D0351A32C5C500F35129 /* JRF_attorneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D370D0341A32C5C500F35129 /* JRF_attorneyTests.swift */; };
+		D39E10BD1A32F04900359FB5 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39E10BC1A32F04900359FB5 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		D370D0331A32C5C500F35129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D370D0341A32C5C500F35129 /* JRF_attorneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRF_attorneyTests.swift; sourceTree = "<group>"; };
 		D39E10B91A32EF2D00359FB5 /* JRF-attorney-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JRF-attorney-Bridging-Header.h"; sourceTree = "<group>"; };
+		D39E10BC1A32F04900359FB5 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		F1F1E9ADEBA5B698DEDC2DBF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 				D370D0271A32C5C500F35129 /* LaunchScreen.xib */,
 				D370D01A1A32C5C500F35129 /* Supporting Files */,
 				D39E10B91A32EF2D00359FB5 /* JRF-attorney-Bridging-Header.h */,
+				D39E10BC1A32F04900359FB5 /* SignInViewController.swift */,
 			);
 			path = "JRF-attorney";
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			files = (
 				D370D0211A32C5C500F35129 /* SecondViewController.swift in Sources */,
 				D370D01D1A32C5C500F35129 /* AppDelegate.swift in Sources */,
+				D39E10BD1A32F04900359FB5 /* SignInViewController.swift in Sources */,
 				D370D01F1A32C5C500F35129 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

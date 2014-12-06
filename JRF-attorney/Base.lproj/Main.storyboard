@@ -96,8 +96,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W27-05-KxH" customClass="GPPSignInButton">
+                                <rect key="frame" x="16" y="197" width="288" height="130"/>
+                                <state key="normal" title="Log In with Google">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h93-ZL-E39" customClass="FBLoginView">
-                                <rect key="frame" x="16" y="20" width="288" height="90"/>
+                                <rect key="frame" x="16" y="28" width="288" height="100"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
@@ -105,6 +111,7 @@
                     </view>
                     <connections>
                         <outlet property="fbLoginView" destination="h93-ZL-E39" id="jda-H4-5MF"/>
+                        <outlet property="gpPSignInButton" destination="W27-05-KxH" id="AB9-Lc-d7r"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ETA-F7-6E1" userLabel="First Responder" sceneMemberID="firstResponder"/>

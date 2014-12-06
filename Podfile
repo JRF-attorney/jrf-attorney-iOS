@@ -4,3 +4,4 @@ link_with 'JRF-attorney', 'JRF-attorneyTests'
 
 pod 'AFNetworking', '~> 2.0'
 pod 'Facebook-iOS-SDK'
+pod 'googleplus-ios-sdk'

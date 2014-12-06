@@ -42,7 +42,7 @@
 		D370D02E1A32C5C500F35129 /* JRF-attorneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JRF-attorneyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D370D0331A32C5C500F35129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D370D0341A32C5C500F35129 /* JRF_attorneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRF_attorneyTests.swift; sourceTree = "<group>"; };
-		D370D03F1A32E39600F35129 /* JRF-attorney-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JRF-attorney-Bridging-Header.h"; sourceTree = "<group>"; };
+		D39E10B91A32EF2D00359FB5 /* JRF-attorney-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JRF-attorney-Bridging-Header.h"; sourceTree = "<group>"; };
 		F1F1E9ADEBA5B698DEDC2DBF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,7 +113,7 @@
 				D370D0251A32C5C500F35129 /* Images.xcassets */,
 				D370D0271A32C5C500F35129 /* LaunchScreen.xib */,
 				D370D01A1A32C5C500F35129 /* Supporting Files */,
-				D370D03F1A32E39600F35129 /* JRF-attorney-Bridging-Header.h */,
+				D39E10B91A32EF2D00359FB5 /* JRF-attorney-Bridging-Header.h */,
 			);
 			path = "JRF-attorney";
 			sourceTree = "<group>";
